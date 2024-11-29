@@ -1,0 +1,96 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+   */
+  .main-content {
+    /* padding: 20px; */
+  }
+  
+  .row {
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 40px; */
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 200px !important; /* Ensures four cards fit in a row */
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(22, 21, 21, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+
+  .card:hover{
+    background-color: aqua !important;
+    font-size: 20px;
+  }
+  
+   .chart-row {
+    justify-content: center;
+    gap: 80px;
+    margin-top: 70px !important;
+
+  }
+  
+  .chart-container {
+    flex: 1;
+    max-width: 500px !important;
+    height: 500px !important;
+    /* height: fit-content; */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0 !important;
+  }
+  
+  
+  .chart-container:hover{
+    background-color: rgb(182, 182, 182);
+  }
+
+  .small-chart {
+    height: 250px;
+    width: 400px;
+    margin-top: 0 !important;
+    
+  }
+  
+  .chart-container canvas {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .piechart{
+    width: 300px;
+  }
+
+  .bargraph{
+    height: 380px;
+
+  }
+  h2 {
+    text-align: center;
+    margin: 0; 
+  }
+  
+  .piechart h2,
+.bargraph h2 {
+  margin: 0 !important; 
+  padding: 10px 0;
+  
+}
