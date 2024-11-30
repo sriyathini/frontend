@@ -1,0 +1,68 @@
+
+#Empdetdils .row{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 20px;
+    background-color: rgba(153, 255, 238, 0.589);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2),  
+              -3px 3px 3px rgba(0, 0, 0, 0.2), 
+              3px -3px 3px rgba(0, 0, 0, 0.2), 
+              -3px -3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Empdetdils .row h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+    color: blue;
+    text-shadow: 2px 0px 2px gray;
+}
+
+#Empdetdils form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+
+#Empdetdils form h1, #Empdetdils form button {
+    grid-column: span 2; 
+    text-align: center;
+}
+
+#Empdetdils form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#Empdetdils form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#Empdetdils form button[type="submit"] {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Empdetdils form button[type="submit"]:hover {
+    background-color: darkblue;
+}
+
