@@ -54,7 +54,7 @@ function App() {
               path="/dashboard/empattendance"
               element={
                 <PrivateRoute>
-                  <Empattendance/>
+                 <Empattendance />
                 </PrivateRoute>
               }
             />

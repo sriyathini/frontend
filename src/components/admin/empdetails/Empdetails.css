@@ -27,8 +27,8 @@
     padding: 20px;
     max-width: 800px; 
     margin: 0 auto;
+    
 }
-
 
 #Empdetdils form h1, #Empdetdils form button {
     grid-column: span 2; 
@@ -66,3 +66,17 @@
     background-color: darkblue;
 }
 
+.error {
+    color: red;
+    font-size: 15px;
+    margin-top: 4px;
+    width: 100% !important;
+    
+  }
+  #Empdetdils form .error {
+    grid-column: span 2; 
+    text-align: center;
+}
+
+
+  
